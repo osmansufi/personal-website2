@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# photos (uploaded to S3, not committed)
+/photos
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
