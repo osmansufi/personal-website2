@@ -14,12 +14,4 @@ export const projects: Project[] = [
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "AWS"],
     repo: "https://github.com/osmansufi/personal-website2",
   },
-  {
-    title: "Example Project",
-    description:
-      "A placeholder project. Replace this with your real projects.",
-    tags: ["React", "Node.js"],
-    href: "https://example.com",
-    repo: "https://github.com/osmansufi/example",
-  },
 ];
