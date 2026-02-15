@@ -8,7 +8,6 @@ export interface Photo {
 const CDN = "https://duw6mv93b79ij.cloudfront.net/web";
 
 export const photos: Photo[] = [
-  { src: `${CDN}/DSC00172.jpg`, alt: "DSC00172", width: 1600, height: 1068 },
   { src: `${CDN}/DSC00661.jpg`, alt: "DSC00661", width: 1600, height: 2400 },
   { src: `${CDN}/DSC03889-3.jpg`, alt: "DSC03889-3", width: 1600, height: 2400 },
   { src: `${CDN}/DSC04065.jpg`, alt: "DSC04065", width: 1600, height: 2844 },
