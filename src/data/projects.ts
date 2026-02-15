@@ -14,4 +14,11 @@ export const projects: Project[] = [
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "AWS"],
     repo: "https://github.com/osmansufi/personal-website2",
   },
+  {
+    title: "Biography of Sajida Rathur",
+    description:
+      "A biographical website I made for my grandmother.",
+    tags: ["React", "Tailwind CSS", "AWS"],
+    href: "https://www.sajidarathur.com/",
+  },
 ];
