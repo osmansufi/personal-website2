@@ -82,6 +82,8 @@ export default function Lightbox({
           width={photo.width}
           height={photo.height}
           className="max-h-[90vh] w-auto object-contain"
+          draggable={false}
+          onContextMenu={(e) => e.preventDefault()}
         />
       </div>
 

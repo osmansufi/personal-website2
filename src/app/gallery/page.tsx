@@ -30,8 +30,10 @@ export default function GalleryPage() {
               alt={photo.alt}
               width={photo.width}
               height={photo.height}
-              className="w-full transition-transform duration-300 hover:scale-105"
+              className="pointer-events-none w-full transition-transform duration-300 hover:scale-105"
               loading="lazy"
+              draggable={false}
+              onContextMenu={(e) => e.preventDefault()}
             />
           </button>
         ))}

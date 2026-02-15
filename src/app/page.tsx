@@ -6,11 +6,12 @@ export default function Home() {
     <div className="relative flex min-h-[calc(100vh-4rem)] items-center">
       {/* Hero background image */}
       <Image
-        src="https://duw6mv93b79ij.cloudfront.net/R0000563.jpg"
+        src="https://duw6mv93b79ij.cloudfront.net/web/R0000563.jpg"
         alt=""
         fill
         priority
-        className="object-cover"
+        className="pointer-events-none object-cover"
+        draggable={false}
       />
 
       {/* Gradient overlay */}
