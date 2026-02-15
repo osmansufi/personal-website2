@@ -32,6 +32,7 @@ export const photos: Photo[] = [
   { src: `${CDN}/R0000102.JPG`, alt: "R0000102", width: 6000, height: 4000 },
   { src: `${CDN}/R0000374.JPG`, alt: "R0000374", width: 6000, height: 4000 },
   { src: `${CDN}/R0000378.jpg`, alt: "R0000378", width: 2612, height: 2240 },
+  { src: `${CDN}/R0000563.jpg`, alt: "R0000563", width: 3360, height: 2240 },
   { src: `${CDN}/R0000565.JPG`, alt: "R0000565", width: 6000, height: 4000 },
   { src: `${CDN}/R0000639.jpg`, alt: "R0000639", width: 6000, height: 4000 },
 ];
